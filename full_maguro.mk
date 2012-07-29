@@ -26,7 +26,7 @@ PRODUCT_PACKAGES := \
     Gallery2
 
 # Get the long list of APNs
-PRODUCT_COPY_FILES := device/sample/etc/apns-full-conf.xml:system/etc/apns-conf.xml
+# PRODUCT_COPY_FILES := device/sample/etc/apns-full-conf.xml:system/etc/apns-conf.xml
 
 # Inherit from those products. Most specific first.
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
@@ -41,3 +41,4 @@ PRODUCT_DEVICE := maguro
 PRODUCT_BRAND := Android
 PRODUCT_MODEL := Full AOSP on Maguro
 PRODUCT_RESTRICT_VENDOR_FILES := true
+PRODUCT_LOCALES := en_US en_GB fr_FR it_IT de_DE es_ES cs_CZ zh_TW zh_CN ru_RU ko_KR pl_PL
