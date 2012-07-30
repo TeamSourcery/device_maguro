@@ -41,4 +41,4 @@ PRODUCT_DEVICE := maguro
 PRODUCT_BRAND := Android
 PRODUCT_MODEL := Full AOSP on Maguro
 PRODUCT_RESTRICT_VENDOR_FILES := true
-PRODUCT_LOCALES := en_US en_GB fr_FR it_IT de_DE es_ES cs_CZ zh_TW zh_CN ru_RU ko_KR pl_PL
+PRODUCT_LOCALES := en_US en_GB fr_FR it_IT de_DE es_ES cs_CZ zh_TW zh_CN ru_RU ko_KR pl_PL nl_NL
