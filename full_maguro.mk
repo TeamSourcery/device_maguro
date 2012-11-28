@@ -21,12 +21,8 @@
 # lines, full and maguro, hence its name.
 #
 
-# Camera and Gallery
-PRODUCT_PACKAGES := \
-    Gallery2
-
 # Get the long list of APNs
-# PRODUCT_COPY_FILES := device/sample/etc/apns-full-conf.xml:system/etc/apns-conf.xml
+PRODUCT_COPY_FILES := device/sample/etc/apns-full-conf.xml:system/etc/apns-conf.xml
 
 # Inherit from those products. Most specific first.
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
@@ -41,4 +37,3 @@ PRODUCT_DEVICE := maguro
 PRODUCT_BRAND := Android
 PRODUCT_MODEL := Full AOSP on Maguro
 PRODUCT_RESTRICT_VENDOR_FILES := true
-PRODUCT_LOCALES := en_US fr_FR it_IT es_ES de_DE nl_NL cs_CZ pl_PL ja_JP zh_TW zh_CN ru_RU ko_KR nb_NO es_US da_DK el_GR tr_TR pt_PT pt_BR rm_CH sv_SE bg_BG ca_ES en_GB fi_FI hi_IN hr_HR hu_HU in_ID iw_IL ka_GE lt_LT lv_LV ro_RO sk_SK sl_SI sr_RS uk_UA vi_VN tl_PH ar_EG fa_IR th_TH sw_TZ ms_MY af_ZA zu_ZA am_ET hi_IN en_AU en_CA en_NZ en_SG fr_BE fr_CA fr_CH de_AT de_LI de_CH it_CH ar_IL en_IN en_IE en_ZA 
